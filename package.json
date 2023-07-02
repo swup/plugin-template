@@ -1,7 +1,7 @@
 {
-  "amdName": "Swup[PluginName]Plugin",
   "name": "swup-[name]-plugin",
-  "description": "Swup plugin template",
+  "amdName": "Swup[PluginName]Plugin",
+  "description": "A swup plugin for [purpose]",
   "version": "1.0.0",
   "type": "module",
   "source": "src/index.js",
