@@ -25,7 +25,7 @@ export default class PluginName extends Plugin {
 	 * You can use this.swup here to access the swup instance.
 	 */
 	mount() {
-		/* this.swup.hooks.on('clickLink', this.handleLinkClick); */
+		/* this.swup.hooks.on('link:click', this.handleLinkClick); */
 	}
 
 	/**
@@ -34,6 +34,6 @@ export default class PluginName extends Plugin {
 	 * Make sure to undo any DOM changes and remove event listeners here.
 	 */
 	unmount() {
-		/* this.swup.hooks.off('clickLink', this.handleLinkClick) */
+		/* this.swup.hooks.off('link:click', this.handleLinkClick) */
 	}
 }
