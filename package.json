@@ -18,11 +18,11 @@
     "dist"
   ],
   "scripts": {
-    "prepublish": "npm run build"
     "build": "swup package:build",
     "dev": "swup package:dev",
     "lint": "swup package:lint",
     "format": "swup package:format",
+    "prepublishOnly": "npm run build"
   },
   "author": {
     "name": "Georgy Marchuk",
