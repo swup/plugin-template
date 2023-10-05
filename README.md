@@ -2,7 +2,19 @@
 
 # Swup Plugin Template
 
-This repo is a template for creating custom swup plugins.
+Best-practice template for creating custom [swup](https://swup.js.org/) plugins.
+
+The easiest way to create a plugin from this template is using swup's interactive command-line
+interface [@swup/cli](https://github.com/swup/cli). It will clone the repo and correctly populate
+the package info and readme with the provided name. Read on below for manual instructions.
+
+```sh
+# Install CLI
+npm install -g @swup/cli
+
+# Create a new plugin from the template
+swup create MyCustomPlugin
+```
 
 ## Instructions
 
